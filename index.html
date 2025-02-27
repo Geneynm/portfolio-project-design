@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en-US" style="scroll-behavior: smooth; --header-fixed-top-offset: 98px; scroll-padding-top: 98px;">
+<head>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+  <!-- Title & Favicon -->
+  <title>Genesis Martinez Portfolio</title>
+ 
+
+  <!-- Open Graph Meta Tags -->
+  <meta property="og:site_name" content="Genesis Martinez Portfolio">
+  <meta property="og:title" content="Genesis Martinez Portfolio">
+  <meta property="og:type" content="website">
+  <meta property="og:description" content="Portfolio of Genesis Martinez, a digital media and marketing professional.">
+  <meta property="og:image" content="img/picture.png">
+  
+  <!-- Twitter Card Meta Tags -->
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Genesis Martinez Portfolio">
+  <meta name="twitter:description" content="Portfolio of Genesis Martinez, a digital media and marketing professional.">
+  <meta name="twitter:image" content="picture.png">
+  
+  <!-- Preconnect, Fonts & Font Awesome for Icons -->
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" 
+        integrity="sha512-papNfjQkvu1pcJxY7Rp8mC0V90XG02l3bC2TOFQh3D7VbOuLw+9TdwR1EeAk/9WfZ+2sl3tBMN3dNjG+KZyGkw==" 
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+  
+  <!-- Link to your CSS file -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body class="flexbox">
+  <!-- Header -->
+  <header id="header" class="header">
+    <div class="container">
+      <div class="header-logo">
+        <a href="/">
+          <img src="picture.png" alt="Genesis Martinez Logo">
+        </a>
+      </div>
+      <nav class="header-nav">
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About Me</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+      <div class="header-cta">
+        <a href="#contact" class="btn">Connect</a>
+      </div>
+    </div>
+  </header>
+  
+  <!-- Main Content -->
+  <main id="page" class="container">
+    <!-- Home Section -->
+    <section id="home">
+      <div class="home-container">
+        <img src="picture.png" alt="Genesis Martinez Headshot">
+        <h1>Welcome to My Portfolio</h1>
+        <p>
+          I'm Genesis Martinez, a digital media and marketing professional based in New York,
+          proudly Dominican, with hands-on experience in program coordination, data intake,
+          social media marketing, and web development. I recently graduated with a Bachelor's
+          degree in Media Studies, Business, and a minor in Sociology from Hunter College.
+          I blend my technical skills in HTML, CSS, and Adobe tools with a passion for inspiring
+          future professionals—and I'm eager to pursue sports media/marketing it is a great passion of mine and hope to one day work for the NBA media team and their socials.
+        </p>
+      </div>
+    </section>
+    
+    <!-- About Section -->
+    <section id="about">
+      <h2>About Me</h2>
+      <p>
+        Drawing on diverse experiences in digital media, marketing, and web development, I bring a unique blend 
+        of creativity and technical precision to every project. Whether managing large-scale data operations or 
+        spearheading innovative campaigns, my hands-on approach and commitment help me craft impactful digital experiences.
+      </p>
+      <h3>Skills</h3>
+      <ul class="skills">
+        <li>HTML&amp;CSS</li>
+        <li>JavaScript</li>
+        <li>Figma</li>
+        <li>Teamwork &amp; Collaboration</li>
+        <li>Responsible</li>
+      </ul>
+      <a href="GenesisMartinezResume.pdf" target="_blank">View My Resume</a>
+    </section>
+    
+    <!-- Projects Section -->
+    <section id="projects">
+      <h2>Projects</h2>
+      <div class="projects-container">
+        <div class="project-item">
+          <h3>Project One</h3>
+          <p>Marketing flyer for a virtual college partnership event with Accenture and ALPFA Chapters.</p>
+          <img src="Projectone.png" alt="Project One">
+        </div>
+        <div class="project-item">
+          <h3>Project Two</h3>
+          <p>Social marketing video for the NERTS 2025 event, created as a member of the Social Media Committee.</p>
+          <video width="450" height="600" controls>
+            <source src="Projecttwo.mp4" type="video/mp4">
+            </video>
+        </div>
+        <div class="project-item">
+          <h3>Project Three</h3>
+          <p>Marketing flyer for ALPFA Hunter's first resume workshop, designed by me last-semester as the Director of Marketing and Social Media.</p>
+          <img src="photothree.JPEG" alt="Project Three">
+        </div>
+      </div>
+    </section>
+    
+    <!-- Contact Section -->
+    <section id="contact">
+      <h2>Contact</h2>
+      <form action="mailto:your-email@example.com" method="post" enctype="text/plain">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" placeholder="Your name" required>
+        
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" placeholder="Your email" required>
+        
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" placeholder="Your message" required></textarea>
+        
+        <button type="submit">Send Message</button>
+      </form>
+    </section>
+
+    <!-- Socials Section -->
+    <section id="socials">
+      <h2>Connect with Me</h2>
+      <ul class="social-links">
+        <li>
+          <a href="https://github.com/geneynm" target="_blank">
+            <i class="fab fa-github"></i> GitHub
+          </a>
+        </li>
+        <li>
+          <a href="https://www.instagram.com/geneynm" target="_blank">
+            <i class="fab fa-instagram"></i> Instagram
+          </a>
+        </li>
+        <li>
+          <a href="https://www.linkedin.com/in/genesis-martinezu7/" target="_blank">
+            <i class="fab fa-linkedin"></i> LinkedIn
+          </a>
+        </li>
+      </ul>
+    </section>
+  </main>
+  
+  <!-- Footer -->
+  <footer class="footer">
+    <p>&copy; 2025 Genesis Martinez. All rights reserved.</p>
+  </footer>
+</body>
+</html>
